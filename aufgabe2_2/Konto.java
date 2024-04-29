@@ -31,4 +31,12 @@ public class Konto {
 	void setSaldo(float saldo) {
 		this.saldo = saldo;
 	}
+	
+	public float einzahlen()
+	
+	
+	auszahlen
+	
+	
+	
 }
