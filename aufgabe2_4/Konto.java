@@ -1,6 +1,4 @@
-package aufgabe22;
-
-import aufgabe2_4.Kunde;
+package aufgabe2_4;
 
 public class Konto {
 
