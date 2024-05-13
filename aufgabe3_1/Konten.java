@@ -3,7 +3,7 @@ package aufgabe3_1;
 class Konten {
 	
 	//Attribute
-	private String kontonummer; //final????
+	private final String kontonummer; //final????
 	protected long saldo;
 
 	public Konten(String kontonummer, long saldo) {
@@ -25,11 +25,11 @@ class Konten {
 	
 	
 	//Methoden
-	void einzahlen(double betragPlus) {
+	void einzahlen(long betragPlus) {
 		saldo += betragPlus;
 	}
 	
-	void auszahlen(double betragMinus) {
+	void auszahlen(long betragMinus) {
 		saldo -= betragMinus;
 	}
 	

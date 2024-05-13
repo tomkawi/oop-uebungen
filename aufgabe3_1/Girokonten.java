@@ -1,6 +1,10 @@
 package aufgabe3_1;
 
-public class Girokonten extends Konten {
+class Girokonten extends Konten {
 
+	public Girokonten(String kontonummer, long saldo) {
+		super(kontonummer, saldo);
+	}
+	
 	
 }
